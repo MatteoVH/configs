@@ -1,0 +1,11 @@
+[user]
+	name = Matteo Vesprini-Heidrich
+	email = matteo.vesprini-heidrich@originate.com
+[push]
+	default = simple
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+	cm = commit
+[core]
+	excludesfile = /Users/matteovh/.gitignore_global
