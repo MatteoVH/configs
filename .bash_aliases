@@ -12,6 +12,7 @@ man() {
 		LESS_TERMCAP_us=$(printf "\e[1;32m") \
 			man "$@"
 }
+o () { find . -name "*$1*" | head -n 1 | xargs -o vim; }
 alias tat='tmux attach -t'
 alias testwatch='fswatch -o -e ".*" -i "\\.coffee$" . | xargs -n 1 -I {} npm run unit-test'
 alias tls='tmux list-sessions'
