@@ -127,7 +127,7 @@ export GITAWAREPROMPT=~/.bash/git-aware-prompt
 source "${GITAWAREPROMPT}/main.sh"
 
 # custom prompt
-export PS1="\[$txtylw\][\u:\w] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\] 🌚  "
+export PS1="\[$txtylw\][\u:\w] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\] 🦄  "
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "
