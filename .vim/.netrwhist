@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/matteovh/.vim'
-let g:netrw_dirhist_2='/Users/matteovh/spaceful/app/pages/tourbook/components/templates/digital_ad'
-let g:netrw_dirhist_3='/Users/matteovh/spaceful/app/pages/tourbook/components/editor'
-let g:netrw_dirhist_4='/Users/matteovh/spaceful/app/pages/profile'
