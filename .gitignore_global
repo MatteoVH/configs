@@ -1,2 +1,4 @@
 .tertestrial.tmp
 *.swp
+.ackrc
+.DS_Store
