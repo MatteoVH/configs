@@ -1,6 +1,9 @@
 alias ff='findfile'
 alias findfile='find . -name'
-alias ls='ls -F'
+alias l='ls'
+alias la='ls -ACF'
+alias ll='ls -lACF'
+alias ls='ls -CF'
 man() {
 	env \
 		LESS_TERMCAP_mb=$(printf "\e[1;31m") \
