@@ -1,3 +1,4 @@
+alias ff='findfile'
 alias findfile='find . -name'
 alias ls='ls -F'
 alias lintwatch='fswatch -o -e ".*" -i "\\.coffee$" -i "\\.styl$" . | xargs -n 1 -I {} npm run lint'
