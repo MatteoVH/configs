@@ -9,7 +9,19 @@
 	cm = commit
 	br = branch
 	co = checkout
-	h = help
+	h = town-hack
 	d = diff
+	npr = town-new-pull-request
+	m = merge
+	r = reset
+	rb = rebase
+	hack = town-hack
+	kill = town-kill
+	new-pull-request = town-new-pull-request
+	prune-branches = town-prune-branches
+	rename-branch = town-rename-branch
+	repo = town-repo
+	ship = town-ship
+	sync = town-sync
 [core]
 	excludesfile = /Users/matteovh/.gitignore_global
