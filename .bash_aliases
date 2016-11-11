@@ -3,7 +3,7 @@ alias findfile='find . -name'
 alias g='git'
 alias l='ls'
 alias la='ls -ACF'
-alias ll='ls -lACF'
+alias ll='ls -lAF'
 alias ls='ls -CF'
 man() {
 	env \
