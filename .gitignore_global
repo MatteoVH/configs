@@ -1,6 +1,7 @@
-.tertestrial.tmp
 *.swo
 *.swp
 .ackrc
 .env_prod
 .DS_Store
+.tertestrial.tmp
+tags
