@@ -1,3 +1,4 @@
+checkport () { lsof -i :"$1"; }
 alias ff='findfile'
 alias findfile='find . -name'
 alias g='git'
