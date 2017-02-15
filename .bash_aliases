@@ -17,7 +17,7 @@ man() {
 		LESS_TERMCAP_us=$(printf "\e[1;32m") \
 			man "$@"
 }
-o () { find . -name "$1" | head -n 1 | xargs -o vim; }
+alias o='vim $(fzf --reverse)'
 alias tat='tmux attach -t'
 alias tkill='tmux kill-session -t'
 alias tls='tmux list-sessions'
